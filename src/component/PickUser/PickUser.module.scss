@@ -1,0 +1,28 @@
+@import "../../styles/mixin.scss";
+
+.pickUserContainer {
+  @include flexProps(flex, center, center, column);
+  padding: 1rem;
+  @include widthHeight(100%, 100%);
+}
+.searchInput {
+  @include widthHeight(50%, 100%);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: blue;
+  padding: 0.5rem;
+  outline: none;
+  font-size: 1.5rem;
+  &::placeholder {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+.inputWrapperContainer {
+  @include flexProps(flex, center, center, column);
+  padding: 1rem;
+  @include widthHeight(100%, 100%);
+}

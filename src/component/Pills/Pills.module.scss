@@ -1,0 +1,18 @@
+@import "../../styles/mixin.scss";
+.pills {
+  //   width: 5rem;
+  border-radius: 1rem;
+  background-color: rgb(181, 211, 230);
+  padding: 0.4rem;
+  width: 8rem;
+  @include flexProps(flex, null, center, null, 1rem);
+}
+.profileImg {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+.targetElementNone
+{
+  display: none;
+}

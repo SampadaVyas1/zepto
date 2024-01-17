@@ -1,0 +1,18 @@
+@import "../../styles/mixin.scss";
+.infoChipWrapper {
+  width: 100%;
+  @include flexProps(flex, center, null, null, 1rem);
+  padding-left: 1.4rem;
+}
+
+.profileImg {
+  @include widthHeight(3rem, 3rem);
+  border-radius: 50%;
+}
+.name {
+  font-size: 1.3rem;
+}
+
+.info {
+  @include flexProps(flex, center, null, null, 1rem);
+}
